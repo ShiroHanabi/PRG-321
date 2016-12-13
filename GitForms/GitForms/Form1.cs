@@ -14,6 +14,7 @@ namespace GitForms
     {
         public Form1()
         {
+            Text = "Aimon";
             InitializeComponent();
         }
     }
