@@ -66,5 +66,12 @@ namespace TaxCalculator
                 e.Handled = true;
             }
         }
+
+
+        private void resetBtn_Click(object sender, EventArgs e)
+        {
+            InputNumBox.Text = "";
+            textBox2.Text = "";
+        }
     }
 }

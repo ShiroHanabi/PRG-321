@@ -36,20 +36,23 @@
             this.labelTotal = new System.Windows.Forms.Label();
             this.labelTaxRt = new System.Windows.Forms.Label();
             this.taxRtNum = new System.Windows.Forms.Label();
+            this.resetBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // InputNumBox
             // 
             this.InputNumBox.Location = new System.Drawing.Point(132, 65);
             this.InputNumBox.Name = "InputNumBox";
-            this.InputNumBox.Size = new System.Drawing.Size(119, 20);
+            this.InputNumBox.Size = new System.Drawing.Size(163, 20);
             this.InputNumBox.TabIndex = 3;
             this.InputNumBox.TextChanged += new System.EventHandler(this.InputNumBox_TextChanged);
             this.InputNumBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Price_Key_Press);
             // 
             // Button_Compute_Tax
             // 
-            this.Button_Compute_Tax.Location = new System.Drawing.Point(288, 224);
+            this.Button_Compute_Tax.FlatAppearance.BorderSize = 2;
+            this.Button_Compute_Tax.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.Button_Compute_Tax.Location = new System.Drawing.Point(133, 152);
             this.Button_Compute_Tax.Name = "Button_Compute_Tax";
             this.Button_Compute_Tax.Size = new System.Drawing.Size(60, 25);
             this.Button_Compute_Tax.TabIndex = 4;
@@ -72,7 +75,7 @@
             this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(133, 111);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(118, 20);
+            this.textBox2.Size = new System.Drawing.Size(162, 20);
             this.textBox2.TabIndex = 6;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -111,11 +114,23 @@
             // 
             this.taxRtNum.AutoSize = true;
             this.taxRtNum.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.taxRtNum.Location = new System.Drawing.Point(106, 197);
+            this.taxRtNum.Location = new System.Drawing.Point(94, 197);
             this.taxRtNum.Name = "taxRtNum";
             this.taxRtNum.Size = new System.Drawing.Size(54, 25);
             this.taxRtNum.TabIndex = 10;
             this.taxRtNum.Text = "7.5%";
+            // 
+            // resetBtn
+            // 
+            this.resetBtn.FlatAppearance.BorderSize = 2;
+            this.resetBtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.resetBtn.Location = new System.Drawing.Point(234, 153);
+            this.resetBtn.Name = "resetBtn";
+            this.resetBtn.Size = new System.Drawing.Size(60, 24);
+            this.resetBtn.TabIndex = 11;
+            this.resetBtn.Text = "Reset";
+            this.resetBtn.UseVisualStyleBackColor = true;
+            this.resetBtn.Click += new System.EventHandler(this.resetBtn_Click);
             // 
             // TaxCalc
             // 
@@ -123,6 +138,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.ClientSize = new System.Drawing.Size(386, 288);
+            this.Controls.Add(this.resetBtn);
             this.Controls.Add(this.taxRtNum);
             this.Controls.Add(this.labelTaxRt);
             this.Controls.Add(this.labelTotal);
@@ -150,6 +166,7 @@
         private System.Windows.Forms.Label labelTotal;
         private System.Windows.Forms.Label labelTaxRt;
         private System.Windows.Forms.Label taxRtNum;
+        private System.Windows.Forms.Button resetBtn;
 
     }
 }
