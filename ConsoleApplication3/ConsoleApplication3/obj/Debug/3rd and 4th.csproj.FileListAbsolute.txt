@@ -1,0 +1,3 @@
+C:\Users\CCSDuser\Documents\GitHub\PRG-321\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\CCSDuser\Documents\GitHub\PRG-321\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\CCSDuser\Documents\GitHub\PRG-321\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
