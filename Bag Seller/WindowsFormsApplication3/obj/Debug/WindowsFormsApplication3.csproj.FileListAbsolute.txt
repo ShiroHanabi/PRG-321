@@ -1,0 +1,6 @@
+C:\Users\CCSDuser\Documents\GitHub\PRG-321\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\CCSDuser\Documents\GitHub\PRG-321\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\CCSDuser\Documents\GitHub\PRG-321\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\CCSDuser\Documents\GitHub\PRG-321\Bag Seller\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\CCSDuser\Documents\GitHub\PRG-321\Bag Seller\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\CCSDuser\Documents\GitHub\PRG-321\Bag Seller\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
